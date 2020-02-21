@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import image1 from '../assets/img/students.jpg'
-import image2 from '../assets/img/preschoolers.jpg'
-import image3 from '../assets/img/kindergarten.jpg'
+import image1 from '../assets/img/kids1.jpg'
+import image2 from '../assets/img/kids2.jpg'
+import image3 from '../assets/img/kids3.jpg'
 
 
 class Carousal extends Component {
@@ -47,7 +47,7 @@ class Carousal extends Component {
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-            </Carousel>
+             </Carousel>
         )
     }
 }
