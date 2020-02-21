@@ -1,19 +1,17 @@
 import React, { Component } from 'react'
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, Button, ButtonToolbar } from 'react-bootstrap';
 
 class NavigationBar extends Component {
     render() {
         return(
-            <Navbar bg="dark"
-                    variant="dark" 
-                    >
-                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-                <Nav className="ml-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Features</Nav.Link>
-                    <Nav.Link href="#pricing">Pricing</Nav.Link>
+           
+                
+                <Nav className="justify-content-center" variant="pills" >
+					<ButtonToolbar>
+						<Button variant="danger" style={{margin:"15px 15px"}}>Home</Button>
+						<Button variant="success" style={{margin:"15px 15px"}}>Gallary</Button>
+				   </ButtonToolbar>
                 </Nav>
-            </Navbar>
         )
     }
 }

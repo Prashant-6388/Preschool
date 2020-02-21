@@ -13,8 +13,8 @@ class Carousal extends Component {
                     <img
                         className="d-block w-100 h-60"
                         src={image1}
-                        alt="First slide"
-                        style={{height:"500px"}}
+                        alt=""
+                        
                     />
                     <Carousel.Caption>
                         <h3>First slide label</h3>
@@ -26,7 +26,7 @@ class Carousal extends Component {
                         className="d-block w-100 h-60"
                         src={image2}
                         alt="Third slide"
-                        style={{height:"500px"}}
+                        
                     />
 
                     <Carousel.Caption>
@@ -39,7 +39,7 @@ class Carousal extends Component {
                         className="d-block w-100 h-60"
                         src={image3}
                         alt="Third slide"
-                        style={{height:"500px"}}
+                        
                     />
 
                     <Carousel.Caption>

@@ -11,7 +11,7 @@ import Contact from './Contact';
 class Layout extends Component {
     render() {
         return (
-            <Container style={{ maxWidth: "100%", maxHeight: "40%", margin: "0px", padding: "0px" }}>
+            <Container style={{ maxWidth: "85%"}}>
                 <NavigationBar />
                 <Carousal />
                 <Team />
