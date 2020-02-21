@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+body, html {
+  height: 100%;
+}
+
+.Login-Bg{
+  height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
