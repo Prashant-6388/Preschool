@@ -4,7 +4,7 @@ import {Jumbotron,Container} from 'react-bootstrap'
 class Team extends Component {
     render() {
         return (
-            <section className="bg-light page-section" id="team">
+            <section className="bg-light page-section" id="info">
                 <Jumbotron fluid
                     style={{textAlign:"center"}}
                     >

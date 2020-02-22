@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Carousel from 'react-bootstrap/Carousel'
+import { Carousel, Form, Button, Col } from 'react-bootstrap'
 import image1 from '../assets/img/kids1.jpg'
 import image2 from '../assets/img/kids2.jpg'
 import image3 from '../assets/img/kids3.jpg'
@@ -8,13 +8,16 @@ import image3 from '../assets/img/kids3.jpg'
 class Carousal extends Component {
     render() {
         return (
-            <Carousel  interval="3000" fade>
-                <Carousel.Item> 
+            
+            <Carousel interval="3000" fade>
+                
+                                
+                <Carousel.Item>
                     <img
                         className="d-block w-100 h-60"
                         src={image1}
                         alt=""
-                        
+
                     />
                     <Carousel.Caption>
                         <h3>First slide label</h3>
@@ -26,7 +29,7 @@ class Carousal extends Component {
                         className="d-block w-100 h-60"
                         src={image2}
                         alt="Third slide"
-                        
+
                     />
 
                     <Carousel.Caption>
@@ -34,20 +37,8 @@ class Carousal extends Component {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item >
-                    <img
-                        className="d-block w-100 h-60"
-                        src={image3}
-                        alt="Third slide"
-                        
-                    />
 
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-             </Carousel>
+            </Carousel>
         )
     }
 }

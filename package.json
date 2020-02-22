@@ -1,5 +1,6 @@
 {
   "name": "pre-school",
+  "homepage":"http://gurukul.sepl-opc.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

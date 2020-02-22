@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import {Card} from 'react-bootstrap'
 
-import Figure from 'react-bootstrap/Figure'
-
 class Cards extends Component {
     render() {
         return (
